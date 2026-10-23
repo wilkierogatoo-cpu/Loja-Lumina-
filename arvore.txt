@@ -1,0 +1,27 @@
+LOJA-LUMINA/
+│
+├── app.py                      # Inicial: aplicação Flask
+├── requirements.txt            # Inicial: dependências Python
+├── README.md                   # Inicial: documentação do projeto
+├── .gitignore                  # Inicial: arquivos ignorados pelo Git
+├── .env.example                # Recomendado: exemplo de configuração
+│
+├── templates/                  # Páginas HTML
+│   ├── base.html               # Etapa 2: estrutura comum das páginas
+│   ├── index.html              # Etapa 1: página inicial
+│   ├── produtos.html           # Etapa 2: catálogo de produtos
+│   ├── produto_detalhe.html    # Etapa 2: detalhes de um produto
+│   └── carrinho.html           # Etapa 3: carrinho de compras
+│
+├── static/                     # Arquivos estáticos do site
+│   ├── css/
+│   │   └── style.css           # Etapa 1: estilos visuais
+│   ├── js/
+│   │   └── main.js             # Etapa 2: interações da interface
+│   └── images/                 # Criar quando houver imagens
+│
+├── tests/                      # Criar na etapa de testes
+│   └── test_app.py             # Posterior: testes da aplicação
+│
+└── notebooks/                  # Opcional: experimentos no Colab
+    └── exploracao.ipynb        # Criar somente se necessário
