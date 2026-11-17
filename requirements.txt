@@ -1,0 +1,15 @@
+# Dependências da LOJA-USEME
+# Instalar com: pip install -r requirements.txt
+
+# Framework web
+Flask>=3.0,<4.0
+
+# Lê as configurações do arquivo .env (SECRET_KEY, DATABASE_PATH etc.)
+python-dotenv>=1.0,<2.0
+
+# Servidor para publicação (produção). No Windows, use "waitress" no lugar.
+gunicorn>=21.2,<24.0; sys_platform != "win32"
+waitress>=3.0,<4.0; sys_platform == "win32"
+
+# Testes (usados na etapa de testes, em tests/test_app.py)
+pytest>=8.0,<10.0
